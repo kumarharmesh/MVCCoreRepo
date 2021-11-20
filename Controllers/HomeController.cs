@@ -20,6 +20,7 @@ namespace MVCCoreGitApp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.data=DateTime.Now.ToString();
             return View();
         }
 
